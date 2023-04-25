@@ -24,7 +24,7 @@ public class main {
                     System.out.println(a + " * " + b + " = " + result);
                 }
                 if (n == '/') {
-                    if (n==0) {
+                    if (b==0) {
                         System.out.println("Деление на ноль невозможно");
                     } else {
                     float result = a / b;
