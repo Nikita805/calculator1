@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 public class main {
-    static boolean valid = true;
     public static void main(String[] args) {
         while (true) {
             System.out.println("Введите первое число");
@@ -55,11 +54,9 @@ public class main {
     public static boolean isNumber(String in) {
         try {
             Float.parseFloat(in);
-            valid = true;
             return true;
         }
         catch (Exception E) {
-            valid = false;
             return false;
         }
     }
